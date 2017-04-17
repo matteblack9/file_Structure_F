@@ -18,6 +18,25 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\OneDrive\3학년 1학기\파일구조\5주차\delim.cpp" />
+    <ClCompile Include="..\..\..\..\..\OneDrive\3학년 1학기\파일구조\5주차\fixfld.cpp" />
+    <ClCompile Include="..\..\..\..\..\OneDrive\3학년 1학기\파일구조\5주차\fixlen.cpp" />
+    <ClCompile Include="..\..\..\..\..\OneDrive\3학년 1학기\파일구조\5주차\iobuffer.cpp" />
+    <ClCompile Include="..\..\..\..\..\OneDrive\3학년 1학기\파일구조\5주차\length.cpp" />
+    <ClCompile Include="..\..\..\..\..\OneDrive\3학년 1학기\파일구조\5주차\person.cpp" />
+    <ClCompile Include="..\..\..\..\..\OneDrive\3학년 1학기\파일구조\5주차\test.cpp" />
+    <ClCompile Include="..\..\..\..\..\OneDrive\3학년 1학기\파일구조\5주차\varlen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\OneDrive\3학년 1학기\파일구조\5주차\delim.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\3학년 1학기\파일구조\5주차\fixfld.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\3학년 1학기\파일구조\5주차\fixlen.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\3학년 1학기\파일구조\5주차\iobuffer.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\3학년 1학기\파일구조\5주차\length.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\3학년 1학기\파일구조\5주차\person.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\3학년 1학기\파일구조\5주차\varlen.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{874CC973-78A1-4FF4-ADA8-4D4F110EC2B1}</ProjectGuid>
@@ -138,8 +157,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
